@@ -1,0 +1,50 @@
+受理明细	增加“合作伙伴”的显示
+/wys_order_dao/src/main/resources/mapper/wysapp/TOTradeMapper.xml
+版本号：9482
+
+修改 受理界面 初始化筛选时间逻辑
+/wys_web/cug_op_web_view/apps/serviceapps/pub-page/shopOrderList.html
+/wys_web/cug_op_web_view/apps/serviceapps/pub-ui/service_js/shopOrderList.js
+版本号：9485
+
+/wys_web/cug_op_web_view/apps/serviceapps/pub-ui/service_js/shopOrderList.tpl
+版本号：9489
+
+修改：由分享连接 进入 店铺界面点击商品进入商品界面后，返回再分享/复制连接有缺失
+/wys_web/cug_op_web_view/apps/serviceapps/pub-ui/service_js/woShop.js
+版本号：9487
+
+修改：“我的”页面 点击“退出”按钮后，展示的“确认”和“取消”按钮失效
+/wys_web/cug_op_web_view/apps/serviceapps/pub-page/mySet.html
+/wys_web/cug_op_web_view/apps/serviceapps/pub-ui/service_js/mySet.js
+/wys_web/cug_op_web_view/apps/serviceapps/pub-ui/css/addStyle.css
+版本号：9491
+
+修改：分享 数据统计 新页面显示
+/wys_web/cug_op_web_view/apps/serviceapps/pub-page/siteStatisticsInfo.html
+版本号：9506
+
+/wys_web/cug_op_web_view/apps/serviceapps/pub-page/siteStatisticsForApp.html
+/wys_web/cug_op_web_view/apps/serviceapps/pub-ui/service_js/siteStatisticsForApp.js
+/wys_web/cug_op_web_view/apps/serviceapps/pub-ui/service_js/siteStatisticsInfo.js
+版本号：9511
+
+/wys_order_api/src/main/java/com/sitech/wys/order/service/order/IshareOrder.java
+/wys_order_biz/src/main/java/com/sitech/wys/order/service/order/ShareOrderImpl.java
+版本号：9509
+
+修改：字段“业务号码”显示不正确
+/wys_web/cug_op_web_view/apps/serviceapps/pub-page/shopOrderDetail.html
+版本号：9539
+
+修改：“我的”页面 点击“退出”按钮后，展示的“确认”和“取消”按钮失效
+/wys_web/cug_op_web_view/apps/serviceapps/pub-page/mySet.html
+版本号：9597
+
+修改：“受理明细”界面 业务号码如果后台返回为空前台界面不作展示。
+/wys_web/cug_op_web_view/apps/serviceapps/pub-ui/service_js/shopOrderList.tpl
+版本号：9556
+
+修改：合作伙伴 显示错误bug
+/wys_order_dao/src/main/resources/mapper/wysapp/TOTradeMapper.xml
+版本号：9575
